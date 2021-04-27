@@ -103,20 +103,32 @@ function submmitr(e) {
 
 
 
+
+
 function setInfo() {
     let str = JSON.stringify(phoneArr);
     localStorage.setItem('mobile', str);
 
 }
 
+// let butRemove=document.getElementById('remove');
+// butRemove.addEventListener('click',removeAllInfo);
+// function removeAllInfo(){
+
+// tableEl.remove();
+// localStorage.removeItem('mobile');
+
+// }
+
+
 
 function getInfo() {
 
     let data = localStorage.getItem('mobile');
 
-    let perseObj = JSON.parse(data);
-
-    if (perseObj !== 'null') {
+   
+ let perseObj = JSON.parse(data);
+    if (perseObj) {
 
         for (let i = 0; i < perseObj.length; i++) {
             new mobile(perseObj[i].name, perseObj[i].type);
@@ -136,4 +148,6 @@ for (let i =0;  i<phoneArr.length;i++) {
     phoneArr[i].renderTable();
     
 }
+
+
 

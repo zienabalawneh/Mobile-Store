@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courgette', cursive;
+ background-image: url("/img/NX7PC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+
+    background-color: whitesmoke;
+    height: 80px;
+}
+#hero{
+
+font-weight: bolder;
+text-align: center;
+padding-top: 20px;
+font-size: 22px;
+}
+
+#form{
+
+background-color: RGBA(211, 211, 211, 0.548);
+height: 300px;
+width: 400px;
+
+margin-left: 350px;
+margin-top: 150px;
+
+}
+#form label{
+
+    font-weight: bold; 
+    font-size: 19px; 
+}
+
+input[type=text] {
+    width: 40%;
+ border-radius: 15px;
+    margin: 8px 0;
+    height: 30px;
+}
+#form select {
+    width: 40%;
+ border-radius: 15px;
+    margin: 8px 0;
+    height: 30px;
+}
+
+input[type=submit] {
+    width: 40%;
+ border-radius: 15px;
+    margin: 8px 0;
+    height: 30px;
+    background-color:RGB(39, 39, 39) ;
+    color: white;
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+
+section{
+    margin-left: 850px;
+    margin-top: -300px;
+    margin-bottom: 150px;
+    background-color: RGBA(211, 211, 211, 0.548);
+    height: 300px;
+    width: 400px;  
+
+}
+
+
+
+
+table, td, th {
+    
+    border: 1px solid white;
+    width: 350px;
+    height: 40px;
+    color: white;
+  }
+
+  table thead th{
+    background-color:RGB(39, 39, 39) ;
+    padding-top: 10px;
+  } 
+  table tbody td{
+    background-color:RGB(78, 78, 78) ;
+    text-align: center;
+    padding-top: 10px;
+  
+  } 
+
+  footer{
+    background-color: whitesmoke;
+    height: 80px;
+    text-align: center;
+  }
+  p{
+
+    padding-top: 20px;
+    font-weight: bolder;
+
+  }
